@@ -1,0 +1,166 @@
+.header {
+    color: white;
+    background-color: #D699AD;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.about {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #E8E8E4;
+    text-align: center;
+}
+
+.projects {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #9DBEBC;
+    text-align: center;
+}
+
+.experience {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #EBADAE;
+    text-align: center;
+}
+
+.contact {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #78A5A2;
+    text-align: center;
+    position: relative;
+}
+
+.icons {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    color: #F6F6F4;
+}
+
+/* TEXT */
+.section-titles {
+    margin-bottom: 40px;
+    color: #F6F6F4;
+}
+.carousel-title {
+    font-size: 50px;
+}
+.carousel-subtitle {
+    font-size: 20px;
+}
+.exp-title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.exp-subtitle{
+    font-size: 16px;
+    color: #999999;
+}
+
+/* COMPONENTS */
+.download-button {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.cards {
+    width: auto;
+    padding: 20px;
+    text-align: start;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.cards-body {
+    width: 40vw;
+    padding: 10px
+}
+.cards-img {
+    width: 30vw;
+    border-radius: 30px;
+}
+.exp-logos {
+    width: 7vw;
+}
+
+
+
+@media only screen and (max-width: 812px) {
+    .about {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .header {
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+    .section-titles {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+    .projects {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .cards {
+        width: auto;
+        text-align: start;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .cards-body{
+        width: auto;
+    }
+    .cards-img {
+        width: 72vw;
+        height: auto;
+        border-radius: 20px;
+    }
+    .experience {
+        padding-left: 30px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .exp-logos {
+        width: 12vw;
+    }
+    .exp-title {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    .exp-subtitle {
+        font-size: 14px;
+    }
+    .carousel-title {
+        font-size: 20px;
+    }
+    .carousel-subtitle {
+        font-size: 10px;
+
+    }
+
+
+    
+
+}
