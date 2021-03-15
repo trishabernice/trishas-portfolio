@@ -19,73 +19,63 @@ const Experience = () => {
           <h1 className="section-titles">Experience</h1>
           <VerticalTimeline>
               <VerticalTimelineElement
-                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #DA6C89'}}
+                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #D39CA1'}}
                 contentArrowStyle={{ borderRight: '7px solid #F6F6F4' }}
-                iconStyle={{ background: "#DA6C89", color: '#F6F6F4' }}
+                iconStyle={{ background: "#C68087", color: '#F6F6F4' }}
                 icon={<MdWork/>}
               >
                 <img src={BAFLogo} alt="BAFLogo" className="exp-logos"/>
                 <h3 className="exp-title">Software Engineer</h3>
                 <h5 className="exp-subtitle">PT Bussan Auto Finance</h5>
-                <p>
-                Vestibulum commodo ornare nunc nec sollicitudin.                
-                </p>
+                <p>November 2020 - present </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
                 className="exp-item"
-                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #DA6C89'}}
+                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #D39CA1'}}
                 contentArrowStyle={{ borderRight: '7px solid #F6F6F4' }}
-                iconStyle={{ background: "#DA6C89", color: '#F6F6F4' }}
+                iconStyle={{ background: "#C68087", color: '#F6F6F4' }}
                 icon={<MdWork/>}
               >
                 <img src={UWMadisonLogo} alt="UWMadisonLogo" className="exp-logos"/>
                 <h3 className="exp-title">IT Assistant</h3>
                 <h5 className="exp-subtitle">MERIT Library at UW-Madison</h5>
-                <p>
-                Vestibulum commodo ornare nunc nec sollicitudin.                
-                </p>
+                <p>June 2019 - May 2020</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
-                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #DA6C89' }}
+                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #D39CA1' }}
                 contentArrowStyle={{ borderRight: '7px solid #F6F6F4' }}
-                iconStyle={{ background: "#DA6C89", color: '#F6F6F4' }}
+                iconStyle={{ background: "#C68087", color: '#F6F6F4' }}
                 icon={<MdWork/>}
               >
                 <img src={IlluminateLogo} alt="IlluminateLogo" className="exp-logos"/>
                 <h3 className="exp-title">Technical Intern</h3>
                 <h5 className="exp-subtitle">Illuminate Education</h5>
-                <p>
-                Vestibulum commodo ornare nunc nec sollicitudin.                
-                </p>
+                <p>April 2018 - July 2018</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
-                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #DE7D97'}}
+                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #D39CA1'}}
                 contentArrowStyle={{ borderRight: '7px solid #F6F6F4' }}
-                iconStyle={{ background: "#DE7D97", color: '#F6F6F4' }}
+                iconStyle={{ background: "#D39CA1", color: '#F6F6F4' }}
                 icon={<IoSchool/>}
               >
                 <img src={PERMIASLogo} alt="PERMIASLogo" className="exp-logos"/>
                 <h3 className="exp-title">Vice President</h3>
                 <h4 className="exp-subtitle">PERMIAS Madison</h4>
-                <p>
-                Vestibulum commodo ornare nunc nec sollicitudin.                
-                </p>
+                <p>September 2018 - May 2020</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
-                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #DE7D97'}}
+                contentStyle={{ background: "#F6F6F4", color: '#1D3C5E', borderRadius: '15px', borderTop: '5px solid #D39CA1'}}
                 contentArrowStyle={{ borderRight: '7px solid #F6F6F4' }}
-                iconStyle={{ background: "#DE7D97", color: '#F6F6F4' }}
+                iconStyle={{ background: "#D39CA1", color: '#F6F6F4' }}
                 icon={<IoSchool/>}
               >
                 <img src={DASBLogo} alt="DASBLogo" className="exp-logos"/>
                 <h3 className="exp-title">Senator</h3>
                 <h4 className="exp-subtitle">De Anza Associated Student Body</h4>
-                <p>
-                Vestibulum commodo ornare nunc nec sollicitudin.                
-                </p>
+                <p>April 2017 - March 2018</p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
-                iconStyle={{ background: "#DE7D97", color: '#F6F6F4' }}
+                iconStyle={{ background: "#D39CA1", color: '#F6F6F4' }}
                 icon={<BiRadioCircle/>}
               />
             </VerticalTimeline>

@@ -18,6 +18,8 @@ import docapp4 from '../../assets/images/docapp4.png';
 import docapp5 from '../../assets/images/docapp5.png';
 import portfolio1 from '../../assets/images/portfolio1.png';
 import portfolio2 from '../../assets/images/portfolio2.png';
+import portfolio3 from '../../assets/images/portfolio3.png';
+import portfolio4 from '../../assets/images/portfolio4.png';
 
 //import { dummy1, dummy2, dchs1, dchs2, dchs3, dchs4 } from '../../assets/images/images';
 
@@ -32,11 +34,9 @@ const Projects = () => {
             <Card.Body className="cards-body">
               <Card.Title >Portfolio Web Application</Card.Title>
               <Card.Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus urna, ultricies et massa ut, eleifend rhoncus nulla. Maecenas venenatis magna metus, a vulputate 
-              ligula ornare sed. Praesent malesuada ex id enim pellentesque pellentesque. Mauris sit amet metus in ante fringilla sagittis. Ut eleifend ligula quis porttitor lobortis. 
-              Curabitur in dolor est. In scelerisque, sem ut vulputate varius, odio lacus pretium urna. 
+              You’re looking at it right now! This is a single page web application that is also mobile-friendly, developed to showcase what I have to offer, and also to give people easier access to me. This web application was first designed on a prototyping tool — Figma, and was then translated into this using React and CSS. This application is also deployed on Github for better access! 
               </Card.Text>
-              <Button variant="dark" href="https://github.com/" target="_blank">Go to project Github</Button>
+              <Button variant="dark" href="https://github.com/trishabernice/trishas-portfolio" target="_blank">Go to project Github</Button>
             </Card.Body>
             </div>
             <div style={{float: 'right'}}>
@@ -46,6 +46,12 @@ const Projects = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={portfolio2} alt="Second slide" className="cards-img"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={portfolio3} alt="Third slide" className="cards-img"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={portfolio4} alt="Fourth slide" className="cards-img"/>
                 </Carousel.Item>
             </Carousel>
             </div>
@@ -58,11 +64,9 @@ const Projects = () => {
             <Card.Body className="cards-body">
               <Card.Title>MyDoctor Mobile Application</Card.Title>
               <Card.Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus urna, ultricies et massa ut, eleifend rhoncus nulla. Maecenas venenatis magna metus, a vulputate 
-              ligula ornare sed. Praesent malesuada ex id enim pellentesque pellentesque. Mauris sit amet metus in ante fringilla sagittis. Ut eleifend ligula quis porttitor lobortis. 
-              Curabitur in dolor est. In scelerisque, sem ut vulputate varius, odio lacus pretium urna. 
+              A mobile application designed to give patients better, faster and easier access to doctors and hospital information, as well as to facilitate communication between patients and doctor. This mobile application was built mainly using React Native, with React-Redux implemented to manage global application state, and Firebase Storage, Authentication and Realtime DB was used as the application's database to manage, store, and sync user data in realtime. 
               </Card.Text>
-              <Button variant="dark" href="https://github.com/" target="_blank">Go to project Github</Button>
+              <Button variant="dark" href="https://github.com/trishabernice/MyDoctorApp" target="_blank">Go to project Github</Button>
             </Card.Body>
             </div>
             <div style={{ float: 'right'}}>
@@ -93,9 +97,7 @@ const Projects = () => {
             <Card.Body className="cards-body">
               <Card.Title>Dane County Humane Society Mobile Application</Card.Title>
               <Card.Text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus urna, ultricies et massa ut, eleifend rhoncus nulla. Maecenas venenatis magna metus, a vulputate 
-              ligula ornare sed. Praesent malesuada ex id enim pellentesque pellentesque. Mauris sit amet metus in ante fringilla sagittis. Ut eleifend ligula quis porttitor lobortis. 
-              Curabitur in dolor est. In scelerisque, sem ut vulputate varius, odio lacus pretium urna. 
+              A mobile application for a local animal shelter in Madison, WI, built to present customers with a user friendly interface as well as to facilitate communication between customers and the organisation. This application is built with Scrum for the development and delivery framework, Flutter for the software development kit, Dart for the language, and Firebase’s Cloud FireStore for the database. Some features of this application include: a calendar, a notifications tab, a gated admin access that allows for data modification, etc. 
               </Card.Text>
               <Button variant="dark" href="https://github.com/trishabernice/DCHS" target="_blank">Go to project Github</Button>
             </Card.Body>

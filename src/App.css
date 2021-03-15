@@ -1,6 +1,6 @@
 .header {
     color: white;
-    background-color: #D699AD;
+    background-color: #1F3F5B;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -13,7 +13,7 @@
     padding-right: 100px;
     padding-bottom: 40px;
     padding-top: 40px;
-    background-color: #E8E8E4;
+    background-color: #F9F5F1;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@
     padding-right: 160px;
     padding-bottom: 40px;
     padding-top: 40px;
-    background-color: #9DBEBC;
+    background-color: #CC8E98;
     text-align: center;
 }
 
@@ -31,14 +31,14 @@
     padding-right: 100px;
     padding-bottom: 40px;
     padding-top: 40px;
-    background-color: #EBADAE;
+    background-color: #95B1AB;
     text-align: center;
 }
 
 .contact {
     padding-bottom: 40px;
     padding-top: 40px;
-    background-color: #78A5A2;
+    background-color: #3E5965;
     text-align: center;
     position: relative;
 }
@@ -56,7 +56,7 @@
     color: #F6F6F4;
 }
 .carousel-title {
-    font-size: 50px;
+    font-size: 45px;
 }
 .carousel-subtitle {
     font-size: 20px;
