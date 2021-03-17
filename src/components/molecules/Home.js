@@ -15,14 +15,14 @@ const Home = () => {
                     <img className="d-block w-100" src={Carousel1} alt="First slide"/>                    
                     <Carousel.Caption>
                     <p className="carousel-title">Hello, I'm Trisha</p>
-                    <p className="carousel-subtitle">Nulla vitae elit libero, a pharetra augue mollis.</p>
+                    {/* <p className="carousel-subtitle">Nulla vitae elit libero, a pharetra augue mollis.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item >
                     <img className="d-block w-100" src={Carousel2} alt="Second slide"/>
                     <Carousel.Caption>
-                    <p className="carousel-title">Second slide label</p>
-                    <p className="carousel-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    {/* <p className="carousel-title">Second slide label</p> */}
+                    {/* <p className="carousel-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing.</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
                 {/* <Carousel.Item >
