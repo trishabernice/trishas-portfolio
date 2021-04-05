@@ -20,6 +20,12 @@ import portfolio1 from '../../assets/images/portfolio1.png';
 import portfolio2 from '../../assets/images/portfolio2.png';
 import portfolio3 from '../../assets/images/portfolio3.png';
 import portfolio4 from '../../assets/images/portfolio4.png';
+import movie1 from '../../assets/images/movie1.png';
+import movie2 from '../../assets/images/movie2.png';
+import movie3 from '../../assets/images/movie3.png';
+import movie4 from '../../assets/images/movie4.png';
+
+
 
 //import { dummy1, dummy2, dchs1, dchs2, dchs3, dchs4 } from '../../assets/images/images';
 
@@ -27,6 +33,36 @@ const Projects = () => {
     return(
         <div id="projects" className="projects">
         <h1 className="section-titles">Projects</h1>
+
+        <Card className="cards">
+          <div>
+            <div style={{float: 'left'}}>
+            <Card.Body className="cards-body">
+              <Card.Title >Movie Web Application</Card.Title>
+              <Card.Text>
+                This React web application shows the available or upcoming movies in cinemas. You can sort the movies based on release data, ratings, as well as alphabetically. When the movie poster is clicked, it brings you to a page of movie details, there you can click on the button that redirects you to the cinema's website! For this project, I experimented with Context API to fetch the movie data from TMDB!
+              </Card.Text>
+              <Button variant="dark">Private Project</Button>
+            </Card.Body>
+            </div>
+            <div style={{float: 'right'}}>
+              <Carousel slide={false}>
+                <Carousel.Item>
+                    <img src={movie1} alt="First slide" className="cards-img"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={movie2} alt="Second slide" className="cards-img"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={movie3} alt="Third slide" className="cards-img"/>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={movie4} alt="Fourth slide" className="cards-img"/>
+                </Carousel.Item>
+            </Carousel>
+            </div>
+          </div>
+        </Card>
 
         <Card className="cards">
           <div>
