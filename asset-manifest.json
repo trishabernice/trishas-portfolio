@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trishas-portfolio/static/css/main.daef0414.chunk.css",
-    "main.js": "/trishas-portfolio/static/js/main.b40932c9.chunk.js",
-    "main.js.map": "/trishas-portfolio/static/js/main.b40932c9.chunk.js.map",
+    "main.js": "/trishas-portfolio/static/js/main.1ded4668.chunk.js",
+    "main.js.map": "/trishas-portfolio/static/js/main.1ded4668.chunk.js.map",
     "runtime-main.js": "/trishas-portfolio/static/js/runtime-main.213fa121.js",
     "runtime-main.js.map": "/trishas-portfolio/static/js/runtime-main.213fa121.js.map",
     "static/css/2.63588ea4.chunk.css": "/trishas-portfolio/static/css/2.63588ea4.chunk.css",
@@ -32,7 +32,7 @@
     "static/media/movie2.6901b002.png": "/trishas-portfolio/static/media/movie2.6901b002.png",
     "static/media/movie3.6a5ce815.png": "/trishas-portfolio/static/media/movie3.6a5ce815.png",
     "static/media/movie4.4e27a644.png": "/trishas-portfolio/static/media/movie4.4e27a644.png",
-    "static/media/my-resume.3bddb3ca.pdf": "/trishas-portfolio/static/media/my-resume.3bddb3ca.pdf",
+    "static/media/my-resume.92112b62.pdf": "/trishas-portfolio/static/media/my-resume.92112b62.pdf",
     "static/media/portfolio1.b062595f.png": "/trishas-portfolio/static/media/portfolio1.b062595f.png",
     "static/media/portfolio2.13494679.png": "/trishas-portfolio/static/media/portfolio2.13494679.png",
     "static/media/portfolio3.1222a267.png": "/trishas-portfolio/static/media/portfolio3.1222a267.png",
@@ -43,6 +43,6 @@
     "static/css/2.63588ea4.chunk.css",
     "static/js/2.3c76ab45.chunk.js",
     "static/css/main.daef0414.chunk.css",
-    "static/js/main.b40932c9.chunk.js"
+    "static/js/main.1ded4668.chunk.js"
   ]
 }
